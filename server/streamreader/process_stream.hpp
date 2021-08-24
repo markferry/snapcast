@@ -19,6 +19,7 @@
 #ifndef PROCESS_STREAM_HPP
 #define PROCESS_STREAM_HPP
 
+#include <algorithm>  // FIXME: missing std::transform for boost 1.77
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wunused-result"
 #pragma GCC diagnostic ignored "-Wunused-parameter"
